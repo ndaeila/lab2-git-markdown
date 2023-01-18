@@ -89,6 +89,8 @@ tasks are comparable.  Here are the tasks:
    
    Yes. It worked.
 
+   ```
+
 10. Now **push** your changes to Github (see [course book 4.4.5](https://faculty.washington.edu/otoomet/info201-book/git-basics.html#git-basics-working-pushing)).  You may
    need to create access token before you are able to push.
    
