@@ -68,6 +68,6 @@
 -   Night of the Ninth Dragon
 -   Danger in the Darkest Hour
 
-![](images/flan1.jpeg)
-![](images/flan2.jpeg)
-![](images/flan3.jpeg)
+![Flan](images/flan1.jpeg)
+![Another Flan](images/flan2.jpeg)
+![Final Flan](images/flan3.jpeg)
