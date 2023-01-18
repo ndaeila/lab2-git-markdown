@@ -19,42 +19,76 @@ tasks are comparable.  Here are the tasks:
 1. **fork** this repository on Github under your user name (see
    [course book 4.6.1](https://faculty.washington.edu/otoomet/info201-book/git-basics.html#forking-and-cloning)).
 
+   Okay.
+
 2. **clone** the forked repo to your computer (see [course
    book 4.3.3](https://faculty.washington.edu/otoomet/info201-book/git-basics.html#git-basics-getting-creating)).
    Write the command you
    used underneath in a code block.
    
+   ```touch books.md```
+
 3. **add a new file** "books.md" to the repo.  You can use RStudio
    (file -> new file -> markdown file), or any other tool you find
    convenient.
    
+   Okay.
+
 4. add a numbered list of book you like to this file
    (see [Github markdown
    docs](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax)). 
    You can use
    RStudio editor, or any other editor you like.
    
+   Okay.
+
 5. check **git status** (see [course book
    4.4.1](https://faculty.washington.edu/otoomet/info201-book/git-basics.html#git-basics-situational-awareness)).
    Show below, in _block quote_, what does it print.
+   ```
+   On branch main
+   Your branch is up to date with 'origin/main'.
+
+   nothing to commit, working tree clean
+   ```
    
    Explain, in plain text, what does it mean.
+
+   git status showing no errors and saying up to date, nothing to commit, working tree clean means there are no changes to commit and things are updated in GitHub correctly.
    
 6. **add** the new file to the repository (see [course book
   4.4.3](https://faculty.washington.edu/otoomet/info201-book/git-basics.html#git-basics-working-adding)).
   Show your command (as a
   code block).
 
+  I added it.
+  **git add books.md**
+
 7. Was your add successful?  Check status again!  Explain what do you
    see.
+
+   It worked! Eureka!
+
+   ```
+   On branch main
+   Your branch is up to date with 'origin/main'.
+
+   nothing to commit, working tree clean
+   ```
    
 8. Now **commit** your changes (see [course book
    4.4.4](https://faculty.washington.edu/otoomet/info201-book/git-basics.html#git-basics-working-committing)). 
    Put your command underneath in a code block.
    
+   ```
+   git commit
+   ```
+
 9. Was your commit successful?  How can you check it?  Show your
    command(s) as a code block and explain what you see!
    
+   Yes. It worked.
+
 10. Now **push** your changes to Github (see [course book 4.4.5](https://faculty.washington.edu/otoomet/info201-book/git-basics.html#git-basics-working-pushing)).  You may
    need to create access token before you are able to push.
    
