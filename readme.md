@@ -139,7 +139,7 @@ This task is about adding images and using relative path.
 4. add image to the repo.  Show the command you are using in a code
    block.
    ```
-   git add images images/*
+   git add .
    git commit
    git push
    ```
@@ -160,7 +160,9 @@ This task is about adding images and using relative path.
 
 6. what is the relative path of your image if you start walking there
    from the location of your books.md file?
-   
+
+   images/flan1.jpeg
+
    You can check if the path is correct with something like `ls
    path-to/file`, e.g.
    ```
@@ -171,9 +173,18 @@ This task is about adding images and using relative path.
    
 7. now add the image to your books.md file using the relative path.
 
+   ```![](images/flan1.jpeg)```
+
 8. check git status and commit
 
+   ```
+   git status
+   git add .
+   git commit
+   ```
+   
 9. push
-
+   ```git push```
 10. check on github--does your books.md file now contain the image?
 
+   Yes.
